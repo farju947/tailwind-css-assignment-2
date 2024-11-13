@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .navv{
+       @apply hover:scale-105 transition-all text-[#F44335] hover:text-purple-600 hover:underline underline-offset-4;}
+ .nav{
+    @apply  hover:scale-105 transition-all hover:text-blue-600 hover:underline underline-offset-4; }
+}
